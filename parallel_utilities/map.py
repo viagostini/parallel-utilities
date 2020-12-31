@@ -1,5 +1,5 @@
-from typing import Callable, Iterable
 import multiprocessing as mp
+from typing import Callable, Iterable
 
 
 def parallel_map(data: Iterable, fun: Callable, n_cpus: int = 2) -> list:

@@ -1,5 +1,3 @@
-import multiprocessing as mp
-
 from parallel_utilities.map import parallel_map, parallel_map_async
 
 
